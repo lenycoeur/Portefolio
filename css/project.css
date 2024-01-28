@@ -1,0 +1,318 @@
+body {
+    background-color:#070711;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+   
+}
+
+.project_container::-webkit-scrollbar{
+    display: none;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'semibold';
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'para';
+    src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'thin';
+    src: url(../fonts/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'num';
+    src: url(../fonts/Graduate/Graduate-Regular.ttf);
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav{
+    padding: 20px;
+}
+
+#logomn img{
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.barnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barnav p {
+    font-size: 25px;
+}
+
+.menubar{
+    text-align: center;
+}
+
+.social a{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'para';
+    padding: 0 50px 0 50px ;
+    list-style-type: none;
+}
+
+li>a{
+    text-decoration: none;
+    color: rgba(182, 181, 181, 0.247);
+
+}
+
+li:hover a{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.number{
+    font-family: 'num';
+    color: white;
+}
+
+
+
+
+
+
+
+.project_container{
+    display: flex;
+    overscroll-behavior: none;
+    width: auto;
+    height: 100vh;
+    
+}
+
+.reveal {
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+  }
+
+.tech {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.logo{
+    width: 120px !important;
+    height: 80px !important;
+    padding: 0 20px 0 20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro-img{
+    height: 500px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.title h1 { 
+    margin-top: 0;
+    font-size: 90px;
+    margin-bottom: 0;
+    font-family: 'semibold';
+}
+
+.litle {
+    text-align: center;
+    width: 50%;
+    font-size: 23px;
+    font-family: 'para';
+}
+
+.pp {
+    text-align: justify;
+    width: 35%;
+    height: 60%;
+    padding: 20px;
+}
+
+.extra{
+    font-family: 'thin';
+    font-size: 18px;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.512);
+    margin-bottom: 0;
+}
+
+.gr {
+    width: 600px;
+}
+
+.gr p{
+    font-size: 20px;
+    font-family: 'para';
+}
+
+.big {
+    font-family: 'semibold';
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.section img{
+    width: 690px;
+    height: 495px;
+
+}
+
+
+.section {
+    margin-top: 300px;
+    flex: 1;
+    min-width: 100%;
+}
+
+.extern {
+    display: flex;
+    flex-direction: column;
+    font-family: 'para';
+    font-size: 10px;
+}
+
+.extern a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+}
+
+.extern svg{
+    width: 20px;
+    height:20px;
+    fill: white;
+}
+
+.extern p:hover svg{
+    animation: litlemove 1s ease-in-out forwards;
+}
+
+.extern a:hover{
+    transition: 0.3s ease-in-out;
+    color: white !important;
+}
+
+
+
+@keyframes litlemove {
+    0%{
+        -webkit-transform: translateX(0);
+    }
+    50% {
+         -webkit-transform: translateX(20px);
+
+    }
+    100%{
+        -webkit-transform: translateX(20px);
+    }
+}
+
+.extern p:not(:hover) svg {
+    animation: back 0.5s ease;
+}
+
+@keyframes back {
+    0%{
+        -webkit-transform: translateX(20px);
+
+    }
+
+    100%{
+        -webkit-transform: translateX(0);
+
+    }
+}
+
+
+
+.skill {
+    font-family: 'regular' !important;
+    font-weight: bold;
+    font-size: 23px !important;
+}
+
+.skill img {
+    margin: 0 10px 0 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.skill::before{
+    content: '▹';
+    color: white;
+    font-size: 50px;
+    
+}
+
+.bdb{
+    display: flex;
+    width: 90%;
+    height: 25px;
+}
+
+.ligth{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
