@@ -1,4 +1,6 @@
-/*barba.init({
+/* --- BARBAJS ANIM ----*/
+
+barba.init({
     transitions: [
       {
         name: 'slide',
@@ -32,4 +34,4 @@
     },
   });
 
-  gsap.registerPlugin(ScrollTrigger, { clearProps: true });*/
+  gsap.registerPlugin(ScrollTrigger, { clearProps: true });
