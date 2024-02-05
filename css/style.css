@@ -111,9 +111,10 @@ li:hover a{
 .contain {
     display: flex;
     justify-content:center;
-    align-items: flex-end;
+    align-items: center;
     float: none;
     margin-top: 100px;
+    padding: 20px;
    
 }
 
@@ -123,59 +124,90 @@ li:hover a{
     will-change: transform, opacity;
   }
 
+
+
+  /*
+.topbis {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botbis{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .bis{
+    max-width: 100%;
     z-index: -1;
     position: absolute;
-    font-size: 500px;
-    top: 550px;
+    font-size: 400px;
+    text-align: center;
+    top: -270px;
+    right: 0;
+    left: 185px;
     color: rgba(255, 255, 255, 0.012);
     margin-top: 0;
     margin-bottom: 0;
     transform: scale(-1);
 }
 
-h3{
+.botbis h3{
+    max-width: 100%;
     z-index: -1;
     position: absolute;
-    font-size: 500px;
+    font-size: 290px;
     text-align: center;
-    top: -170px;
+    top: -695px;
+    left: 110px;
     color: rgba(255, 255, 255, 0.007);
     margin-top: 0;
     margin-bottom: 0;
-}
+}*/
 
 .me {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    width: 470px;
+    height: 581px;
 }
 
 .me img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
 }
 
-
+.textme {
+    width: 820px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .bigname {
-    width: auto;
-    height: 400px;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+
+    width: 100%;
+    height: auto;
+
 }
 
 .bigname p{
-    font-size: 360px;
+    font-size: 23rem;
+    max-width: 100%;
     font-weight: bolder;
+    height: 410px;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'big' ;
     letter-spacing: -8px;
     overflow: hidden;
-
-    
-   
-
 }
 
 .bdb{
@@ -197,9 +229,9 @@ h3{
     font-size: 50px;
     font-family: 'regular';
     letter-spacing: -3px;
-    position: absolute;
-    top: 60px;
-    left: 15px;
+    position: relative;
+    top: 100px;
+    height: auto;
 
 }
 
@@ -260,33 +292,38 @@ h3{
 .proto {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     height: 90vh;
 }
 
+.ecom {
+    width: 680px;
+    height: 700px;
+    position: relative;
+}
 
 .un {
     position: absolute;
     font-size: 120px;
-    top: 1450px;
-    left: 80px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    left: -15%;
+    z-index: 1;
+    font-family: 'num';
 }
 
 .proto img{
-    width: 570px;
-    height: 510px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 50px 100px 14px;
+    max-width: 100%;
+    height: auto;
 }
 
 
 .grey {
-    width: 555px;
-    height: 520px;
+    min-width: 100% ;
+    height: auto;
     position: absolute;
-    top: 1750px;
-    left: 260px;
+    top: 280px;
+    left: 5%;
     backdrop-filter: blur(10px);
     background-color: rgba(128, 128, 128, 0.089);
     overflow: hidden;
@@ -295,16 +332,16 @@ h3{
 
 
 h5{
+    padding: 12px;
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 25px;
     font-family: 'semibold';
     line-height: 90px;
 }
 
 .textp p{
-    padding: 25px;
+    padding: 10px;
     font-size: 22px;
     margin-top: 0;
     font-family: 'para';
@@ -344,30 +381,33 @@ h5{
    color: rgb(0, 0, 0);
 }
 
-
-
 /*project TWO*/
 
+.wowfun{
+    width: 680px;
+    height: 700px;
+    position: relative;
+}
 
 .orange {
-    width: 565px;
-    height: 520px;
+   
+    min-width: 100% ;
+    height: auto;
     position: absolute;
-    top: 1830px;
-    left: 1200px;
+    top: 280px;
+    left: 5%;
     backdrop-filter: blur(10px);
     background-color: rgba(128, 128, 128, 0.089);
     overflow: hidden;
+
 }
 
 .deux {
     position: absolute;
     font-size: 110px;
-    top: 1600px;
-    left: 1070px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
     z-index: 1;
+    font-family: 'num';
+    left: -15%;
 }
 
 .orange_button button{
@@ -387,32 +427,37 @@ h5{
 
  /*PROJET THREE*/
 
+ .prot{
+    display: flex;
+    justify-content: center;
+ }
+
  .trois {
     position: absolute;
     font-size: 110px;
-    top: 2400px;
-    left: 250px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    font-family: 'num';
+    right: 100%;
     z-index: 1;
 }
 
 .last{
-    display: flex;
-    justify-content: center;
+    width: 680px;
+    height: 700px;
+    position: relative;
 }
 
 .last img{
-    width: 700px;
-    height: 480px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 50px 100px 14px;
+    max-width: 100%;
+    height: auto;
 }
 
 .couleur{
-    width: 750px;
-    height: 488px;
-    position: relative;
-    left: -140px;
+   
+    min-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0 ;
+    left: 50%;
     backdrop-filter: blur(10px);
     background-color: rgba(128, 128, 128, 0.089);
     overflow: hidden;
@@ -423,13 +468,12 @@ h5{
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 25px;
     font-family: 'semibold';
     line-height: 90px;
 }
 
 .textc p{
-    padding: 25px;
+    padding: 8px;
     font-size: 22px;
     margin-top: 0;
     font-family: 'para';
@@ -625,8 +669,462 @@ h5{
   left: 0px;
 }
 
-@media (min-width: 768px) {
-  .contact {
+
+
+
+@media (min-width: 1440px) {}
+
+@media (max-width: 1569px) {
+    body {
+     text-size-adjust: auto !important;
+    }
+
+    /*.bis{
+   
+
+   }
+
+   .botbis h3{
+   
+ 
+   }*/
+
+    /*PROGETCT ONE*/
+    .proto {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 90vh !important;
+    }
+    .ecom {
+        width: 450px;
+        height: 300px;
+    }
+    .un, .deux {
+        font-size: 4em !important;
+        left: 1%;
+    }
+
+    .proto img{
+        max-width: 100%;
+        height: auto;
+    }
+    .grey {
+        top: 190px;
+        left: 5%;
+    }
+
+    h5{
+        font-size: 2em !important;
+    }
+
+    .textp p{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: 'para';
+    }
+
+    .re p {
+        font-size: 10px;
+    }
+    .symb::before{
+        font-size: 10px;
+    }
+
+
+    /*project TWO*/
+
+    .wowfun{
+        width: 450px;
+        height: 300px;
+        position: relative;
+    }
+
+        .orange {
+            top: 190px;
+            left: 5%;
+        }
+    
+
+    .deux {
+        left: -15%;
+    }
+
+    /*PROJET THREE*/
+
+    .prot{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trois {
+        font-size: 4em; 
+    }
+
+    .last{
+        width: 450px;
+        height: 300px;
+    }
+
+    .couleur{
+        top: 0 ;
+        left: 50%;
+    }
+
+    .textc p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1229px){
+    .bigname p{
+        font-size: 20rem!important;
+    }
+
+    .bis{
+        font-size: 300px;
+        height: auto;
+    }
+
+   .botbis h3{
+        font-size: 250px;
+        height: auto;
+   }
+
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+       
+}
+
+@media (max-width: 1035px) {
+
+    .menubar li{
+        font-size: 1rem;
+        padding: 0 20px 0 20px;
+    }
+
+    nav ul{
+        padding: 0px;
+    }
+
+    .contain {
+        margin-top: 0;
+    }
+
+    .bigname p{
+        font-size: 11rem!important;
+        height: 204px;
+    }
+
+    .bigname span {
+        font-size: 23px;
+        top: 10%;
+    }
+
+    .textme {
+    width: 386px;
+  
+   }
+
+    .me {
+        width: auto !important;
+        height: 195px !important;
+    }
+
+    .me img {
+        width: 197px ;
+        height: auto;
+    }
+
+    .bdb {
+        margin-top: 0 !important;
+        height: 21px;
+    }
+
+    .about {
+        font-size: 12px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .bod {
+        width: 107px;
+        height: 20px;
+    }
+
+    .interlude {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+    .proto {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 90vh !important;
+    }
+    .ecom {
+        width: 300px;
+    }
+    .un, .deux {
+        font-size: 3em !important;
+        left: 1%;
+    }
+
+    .proto img{
+        max-width: 100%;
+        height: auto;
+    }
+    .grey {
+        top: 120px;
+        left: 5%;
+    }
+
+    h5{
+        font-size: 1.7em !important;
+    }
+
+    .textp p{
+        font-size: 13px;
+        margin-top: 0;
+        font-family: 'para';
+    }
+
+    .re p {
+        font-size: 10px;
+    }
+    .symb::before{
+        font-size: 10px;
+    }
+
+    .white button {
+        width: 100px;
+        height: 50px;
+    }
+
+
+    /*project TWO*/
+
+    .wowfun{
+       width: 300px;
+    }
+
+        .orange {
+            top: 150px;
+            left: 5%;
+        }
+    
+
+    .deux {
+        left: -15%;
+    }
+
+      .orange button {
+        width: 100px;
+        height: 50px;
+    }
+
+    /*PROJET THREE*/
+
+    .prot{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trois {
+        font-size: 4em; 
+    }
+
+    .last{
+        width: 300px;
+        height: 300px;
+    }
+
+    .couleur{
+        top: 0 ;
+        left: 50%;
+    }
+
+    .textc p{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+
+     .couleur button {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .menubar li{
+        font-size: 1rem;
+        padding: 0 10px 0 10px;
+    }
+
+    nav ul{
+        padding: 0px;
+    }
+
+    .contain {
+        margin-top: 0px;
+        padding: 0;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    
+
+    .bigname p{
+        font-size: 8rem!important;
+        height: 154px;
+    }
+
+    .bigname span {
+        font-size: 23px;
+        top: 10%;
+    }
+
+    .textme {
+    width: 276px;
+  
+   }
+
+    .me {
+        width: auto !important;
+        height: 195px !important;
+    }
+
+    .me img {
+        width: 170px ;
+        height: auto;
+    }
+
+    .bdb {
+        margin-top: 0 !important;
+        height: 21px;
+    }
+
+    .about {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    .bod {
+        width: 77px;
+        height: 20px;
+    }
+
+    .interlude {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /*INTERLUDE*/
+
+
+
+
+        /*PROGETCT ONE*/
+    .proto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh !important;
+    }
+    .ecom {
+        width: 280px;
+    }
+    .un, .deux {
+        font-size: 2em !important;
+        left: 1%;
+    }
+
+    .proto img{
+        max-width: 100%;
+        height: auto;
+    }
+    .grey {
+        top: 105px;
+        left: 5%;
+    }
+
+    h5{
+        font-size: 1.5em !important;
+    }
+
+    .textp p{
+        padding: 15px !important;
+        font-size: 13px;
+        margin-top: 0;
+        font-family: 'para';
+    }
+
+    .re p {
+        font-size: 10px;
+    }
+    .symb::before{
+        font-size: 10px;
+    }
+
+
+    /*project TWO*/
+
+    .wowfun{
+        width: 280px;
+       
+    }
+
+        .orange {
+            top: 105px;
+            left: 5%;
+        }
+    
+
+    .deux {
+        left: -15%;
+    }
+
+    /*PROJET THREE*/
+
+ 
+
+    .trois {
+        font-size: 2em; 
+    }
+
+    .last{
+        width: 290px;
+    }
+
+    .couleur{
+        top: 0 ;
+        left: 50%;
+    }
+
+    .textc p{
+        font-size: 13px;
+    }
+
+
+     .contact {
     padding: 13px 50px 13px;
   }
+  
+}
+
+
+@media (max-width: 576px){
+
+     .bigname p{
+        font-size: 10rem!important;
+    }
 }
