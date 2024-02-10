@@ -10,9 +10,6 @@ body {
   font-family: "poppins";
 }
 
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -267,8 +264,7 @@ li:hover a {
 
 /*MIDCONTAIN*/
 
-
-.mid{
+.mid {
   width: 100%;
   height: auto;
 }
@@ -466,8 +462,6 @@ h5 {
   overflow: hidden;
 }
 
-
-
 .textc p {
   padding: 0.5rem;
   font-size: 1.3em;
@@ -562,7 +556,6 @@ h5 {
   height: auto;
   margin-top: 15rem;
   gap: 2rem;
-
 }
 
 .gitt {
@@ -1121,7 +1114,7 @@ h5 {
   }
 
   .textp p {
-    padding:0.9rem !important;
+    padding: 0.9rem !important;
     font-size: 0.6em;
     margin-top: 0;
     font-family: "para";
@@ -1207,8 +1200,7 @@ h5 {
 }
 
 @media (max-width: 576px) {
-
-  #home{
+  #home {
     position: fixed;
     top: 0;
     width: 100%;
@@ -1218,7 +1210,6 @@ h5 {
     background-color: #0707103d;
     backdrop-filter: blur(2px);
   }
-  
 
   .menubar {
     display: none;
@@ -1230,7 +1221,6 @@ h5 {
   }
 
   .social a {
-    
   }
 
   .contain {
@@ -1238,7 +1228,6 @@ h5 {
     padding: 0;
     height: 300px;
   }
-
 
   .bigname {
     width: 100%;
@@ -1262,7 +1251,7 @@ h5 {
 
   .me {
     width: auto;
-    height: 53px !important;  
+    height: 53px !important;
   }
 
   .me img {
@@ -1282,8 +1271,6 @@ h5 {
     margin-top: 0px;
   }
 
-
-
   .bod {
     width: 64px;
     height: 15px;
@@ -1301,7 +1288,7 @@ h5 {
     animation: movedown 2s infinite;
   }
 
-    .midcontain {
+  .midcontain {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1328,7 +1315,6 @@ h5 {
     align-items: center;
     height: 415px !important;
     margin-bottom: 0;
-    
   }
   .ecom {
     width: 50%;
@@ -1362,9 +1348,8 @@ h5 {
     font-family: "para";
   }
 
-  
-  .re{
-    margin-left: 0.2rem ;
+  .re {
+    margin-left: 0.2rem;
   }
   .re p {
     text-align: center;
@@ -1381,7 +1366,6 @@ h5 {
 
   .fa-solid {
     font-size: 10px !important;
-    
   }
 
   /*project TWO*/
@@ -1435,7 +1419,6 @@ h5 {
     padding: 0.5rem !important;
   }
 
-
   /*FOOTER */
 
   #foot {
@@ -1471,12 +1454,10 @@ h5 {
   .textfoot p {
     font-size: 0.7em;
     padding: 1rem;
-   
   }
 
   .ff {
     display: none;
-    
   }
 
   .logof {
@@ -1496,9 +1477,4 @@ h5 {
     padding: 13px 50px 13px;
     font-size: 15px;
   }
-
-
-
-  
-
 }
