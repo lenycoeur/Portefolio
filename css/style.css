@@ -2,10 +2,16 @@ body {
   background-color: #070710;
   color: white;
   width: 100%;
+  max-width: 120rem;
+  min-height: 100%;
   margin: 0 auto;
   padding: 0;
+
   font-family: "poppins";
 }
+
+
+
 
 * {
   box-sizing: border-box;
@@ -44,7 +50,7 @@ body {
 /*CSS NAV*/
 
 nav {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 #logomn img {
@@ -59,7 +65,7 @@ nav {
   align-items: center;
 }
 .barnav p {
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .menubar {
@@ -69,7 +75,7 @@ nav {
 .social a {
   align-items: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5em;
   color: white;
 }
 
@@ -79,9 +85,9 @@ ul {
 
 li {
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.5em;
   font-family: "para";
-  padding: 0 50px 0 50px;
+  padding: 0 3rem 0 3rem;
   list-style-type: none;
 }
 
@@ -107,8 +113,9 @@ li:hover a {
   justify-content: center;
   align-items: center;
   float: none;
-  margin-top: 100px;
-  padding: 20px;
+  width: 100%;
+  height: 750px;
+  padding: 1.25rem;
 }
 
 .reveal {
@@ -172,11 +179,12 @@ li:hover a {
   width: 470px;
   height: auto;
   text-align: center;
+  overflow: hidden;
 }
 
 .textme {
-  width: 820px;
-  height: 600px;
+  width: 850px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,9 +196,8 @@ li:hover a {
 }
 
 .bigname p {
-  font-size: 23rem;
+  font-size: 23em;
   max-width: 100%;
-  font-weight: bolder;
   height: 410px;
   margin-top: 0;
   margin-bottom: 0;
@@ -203,18 +210,18 @@ li:hover a {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  height: 50px;
+  height: auto;
   margin-top: 5px;
 }
 
 .bod {
-  width: 215px;
+  width: 245px;
   height: 35px;
   background-color: blueviolet;
 }
 
 .bigname span {
-  font-size: 50px;
+  font-size: 3.1em;
   font-family: "regular";
   position: relative;
   top: 100px;
@@ -225,7 +232,7 @@ li:hover a {
 .about {
   font-family: "para";
   text-align: center;
-  font-size: 23px;
+  font-size: 1.4em;
   color: rgba(255, 255, 255, 0.459);
   margin-top: 0;
   margin-bottom: 0;
@@ -234,8 +241,10 @@ li:hover a {
 /*INTERLLUDE*/
 
 .interlude {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 .interlude img {
@@ -258,24 +267,32 @@ li:hover a {
 
 /*MIDCONTAIN*/
 
+
+.mid{
+  width: 100%;
+  height: auto;
+}
+
 .midcontain {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  height: auto;
 }
 
 .midcontain h2 {
-  font-size: 70px;
+  font-size: 4em;
 }
 
 .midcontain p {
-  font-size: 25px;
+  font-size: 1.5em;
   font-family: "para";
 }
 
 .all a {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
@@ -285,19 +302,19 @@ li:hover a {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  margin-bottom: 150px;
-  height: 100vh;
+  height: 800px;
+  margin-bottom: 9rem;
 }
 
 .ecom {
-  width: 680px;
+  max-width: 42.5rem;
   height: auto;
   position: relative;
 }
 
 .un {
   position: absolute;
-  font-size: 120px;
+  font-size: 7.5em;
   left: -15%;
   z-index: 1;
   font-family: "num";
@@ -320,17 +337,17 @@ li:hover a {
 }
 
 h5 {
-  padding: 12px;
-  font-size: 80px;
+  padding: 1.5rem;
+  font-size: 5em;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "semibold";
-  line-height: 90px;
+  line-height: 1.3em;
 }
 
 .textp p {
-  padding: 10px;
-  font-size: 22px;
+  padding: 0.7rem;
+  font-size: 1.3em;
   margin-top: 0;
   font-family: "para";
 }
@@ -342,12 +359,12 @@ h5 {
 }
 
 .re {
-  margin-left: 25px;
+  margin-left: 1.5rem;
 }
 
 .re p {
   color: rgba(255, 255, 255, 0.236);
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .symb::before {
@@ -359,7 +376,7 @@ h5 {
 .white button {
   border: none;
   width: 150px;
-  height: 83px;
+  height: 92px;
   background-color: rgb(255, 255, 255);
   cursor: pointer;
   box-shadow: 0 5px 200px rgba(248, 248, 248, 0.853);
@@ -372,7 +389,7 @@ h5 {
 /*project TWO*/
 
 .wowfun {
-  width: 680px;
+  width: 42.5rem;
   height: auto;
   position: relative;
 }
@@ -399,7 +416,7 @@ h5 {
 .orange_button button {
   border: none;
   width: 150px;
-  height: 83px;
+  height: 92px;
   background-color: rgb(224, 165, 63);
   cursor: pointer;
   box-shadow: 0 5px 200px rgb(241, 196, 90);
@@ -416,18 +433,19 @@ h5 {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 800px;
 }
 
 .trois {
   position: absolute;
   font-size: 110px;
   font-family: "num";
-  right: 100%;
+  right: 90%;
   z-index: 1;
 }
 
 .last {
-  width: 680px;
+  width: 42.5rem;
   height: auto;
   position: relative;
 }
@@ -448,39 +466,19 @@ h5 {
   overflow: hidden;
 }
 
-h5 {
-  font-size: 80px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "semibold";
-  line-height: 90px;
-}
+
 
 .textc p {
-  padding: 8px;
-  font-size: 22px;
+  padding: 0.5rem;
+  font-size: 1.3em;
   margin-top: 0;
   font-family: "para";
-}
-
-.regp {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.re {
-  margin-left: 25px;
-}
-
-.re p {
-  color: rgba(255, 255, 255, 0.236);
 }
 
 .couleur_button button {
   border: none;
   width: 150px;
-  height: 83px;
+  height: 92px;
   background-color: rgb(58, 219, 139);
   cursor: pointer;
   box-shadow: 0 5px 255px rgba(102, 237, 72, 0.879);
@@ -492,12 +490,16 @@ h5 {
 
 /*FOOTER*/
 
+#foot {
+  margin-top: 6.25rem;
+  height: 750px;
+}
+
 .containfoot {
   display: flex;
   background-color: #0a0a130c;
   width: 100%;
-  height: 90vh;
-  margin-top: 150px;
+  height: 750px;
   overflow: hidden;
 }
 
@@ -506,7 +508,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .ff {
@@ -516,6 +518,7 @@ h5 {
 }
 
 .logof {
+  width: auto;
   height: 300px;
 }
 
@@ -528,25 +531,24 @@ h5 {
 }
 
 .textfoot {
-  margin-top: 100px;
-  width: 700px;
+  margin-top: 6.25rem;
+  width: 50%;
   height: auto;
 }
 
 .textfoot h4 {
   font-family: "semibold";
-  font-size: 110px;
+  font-size: 6.8em;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 90px;
   text-align: center;
 }
 
 .textfoot p {
-  padding: 25px;
+  padding: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: "para";
   text-align: center;
 }
@@ -555,8 +557,12 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  gap: 2em;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 15rem;
+  gap: 2rem;
+
 }
 
 .gitt {
@@ -806,6 +812,7 @@ h5 {
 
   .contain {
     margin-top: 0;
+    height: 350px;
   }
 
   .bigname p {
@@ -849,8 +856,8 @@ h5 {
   }
 
   .interlude {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .midcontain {
@@ -873,7 +880,7 @@ h5 {
   }
 
   .proto {
-    height: 50vh;
+    height: 380px;
   }
   .ecom {
     width: 300px;
@@ -940,6 +947,8 @@ h5 {
   .prot {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 300px;
   }
 
   .trois {
@@ -1027,7 +1036,7 @@ h5 {
   .contain {
     margin-top: 0px;
     padding: 0;
-    height: 500px;
+    height: 300px;
   }
 
   .bigname p {
@@ -1085,7 +1094,8 @@ h5 {
   .proto {
     display: flex;
     justify-content: space-around;
-    height: 50vh;
+    width: 100%;
+    height: 400px;
   }
   .ecom {
     width: 250px;
@@ -1107,13 +1117,18 @@ h5 {
 
   h5 {
     font-size: 1.5em !important;
+    padding: 0.8rem;
   }
 
   .textp p {
-    padding: 15px !important;
-    font-size: 13px;
+    padding:0.9rem !important;
+    font-size: 0.6em;
     margin-top: 0;
     font-family: "para";
+  }
+
+  .re {
+    margin-left: 0.8rem;
   }
 
   .re p {
@@ -1193,64 +1208,85 @@ h5 {
 
 @media (max-width: 576px) {
 
-   .menubar {
+  #home{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    background-color: #0707103d;
+    backdrop-filter: blur(2px);
+  }
+  
+
+  .menubar {
     display: none;
   }
 
   #logomn img {
-    width: 80px;
+    width: 60px;
     height: auto;
   }
 
   .social a {
-    display: none;
-  
+    
   }
 
   .contain {
     margin-top: 0px;
     padding: 0;
-    height: 500px;
+    height: 300px;
+  }
+
+
+  .bigname {
+    width: 100%;
+    height: auto;
   }
 
   .bigname p {
-    font-size: 3rem !important;
-    height: 170px;
+    width: 12.8rem;
+    font-size: 6em !important;
+    height: 110px !important;
   }
 
   .bigname span {
-    font-size: 15px;
+    font-size: 0.9em;
     top: 30px;
   }
 
   .textme {
-    width: 70px;
+    width: 210px;
   }
 
   .me {
-    width: auto !important;
-    height: 195px !important;
+    width: auto;
+    height: 53px !important;  
   }
 
   .me img {
-    width: 50px;
+    width: 80px;
     height: auto;
+    text-align: center;
   }
 
   .bdb {
     margin-top: 0 !important;
-    height: 21px;
+    height: 20px;
   }
 
   .about {
-    display: none;
+    width: 80px;
     font-size: 7px;
     margin-top: 0px;
   }
 
+
+
   .bod {
-    width: 88px;
-    height: 20px;
+    width: 64px;
+    height: 15px;
   }
 
   .interlude {
@@ -1287,14 +1323,15 @@ h5 {
   /*PROGETCT ONE*/
   .proto {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-bottom: 130px;
-    height: 100vh;
+    align-items: center;
+    height: 415px !important;
+    margin-bottom: 0;
     
   }
   .ecom {
-    width: 250px;
+    width: 50%;
     height: auto;
   }
   .un {
@@ -1307,42 +1344,55 @@ h5 {
     height: auto;
   }
   .grey {
-    top: 100px;
+    top: 45px;
     left: 5%;
   }
 
   h5 {
-    font-size: 1.5em !important;
+    font-size: 1em !important;
+    padding: 0.5rem;
+    line-height: 1em;
   }
 
   .textp p {
-    padding: 15px !important;
-    font-size: 10px;
+    padding: 0.5rem !important;
+    font-size: 0.2em;
     margin-top: 0;
     margin-bottom: 0;
     font-family: "para";
   }
 
+  
+  .re{
+    margin-left: 0.2rem ;
+  }
   .re p {
-    font-size: 7px;
+    text-align: center;
+    font-size: 5px;
   }
   .symb::before {
-    font-size: 10px;
+    font-size: 1.5em;
   }
 
   .white button {
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 26px;
+  }
+
+  .fa-solid {
+    font-size: 10px !important;
+    
   }
 
   /*project TWO*/
 
   .wowfun {
-    width: 250px;
+    width: 50%;
+    height: auto;
   }
 
   .orange {
-    top: 100px;
+    top: 45px;
     left: 5%;
   }
 
@@ -1351,12 +1401,15 @@ h5 {
   }
 
   .orange button {
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 26px;
   }
 
   /*PROJET THREE*/
 
+  .prot {
+    height: 200px;
+  }
 
   .trois {
     font-size: 2em;
@@ -1364,45 +1417,79 @@ h5 {
   }
 
   .last {
-    width: 270px;
+    width: 50%;
   }
 
   .couleur {
-    top: 100px;
+    top: 45px;
     left: 5%;
   }
 
   .couleur button {
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 26px;
   }
 
   .textc p {
-    font-size: 10px;
-    padding: 15px !important;
+    font-size: 0.2em;
+    padding: 0.5rem !important;
+  }
+
+
+  /*FOOTER */
+
+  #foot {
+    margin-top: 6.25rem;
+    height: 500px;
+  }
+  .containfoot {
+    margin-top: 0;
+    height: 500px;
+  }
+
+  .f {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
   }
 
   .textfoot {
-    margin-top: 100px;
-    width: 820px;
+    width: 80%;
     height: auto;
+    padding: 0.5rem;
+    margin-top: 0;
   }
 
   .textfoot h4 {
-    font-size: 50px;
-    line-height: 90px;
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 0.5rem;
   }
 
   .textfoot p {
-    font-size: 12px;
+    font-size: 0.7em;
+    padding: 1rem;
+   
+  }
+
+  .ff {
+    display: none;
+    
   }
 
   .logof {
-    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
   }
 
   .logof img {
-    width: 70px;
+    width: 90px;
   }
 
   .contact {
@@ -1410,10 +1497,6 @@ h5 {
     font-size: 15px;
   }
 
-  .foo p {
-    font-size: 15px;
-    font-family: "para";
-  }
 
 
   
