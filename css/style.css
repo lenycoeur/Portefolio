@@ -1200,12 +1200,13 @@ h5 {
 }
 
 @media (max-width: 576px) {
+
   #home {
     position: fixed;
     top: 0;
     width: 100%;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
     padding: 0;
     background-color: #0707103d;
     backdrop-filter: blur(2px);
@@ -1216,11 +1217,12 @@ h5 {
   }
 
   #logomn img {
-    width: 60px;
+    width: 35px;
     height: auto;
   }
 
   .social a {
+    font-size: 13px;
   }
 
   .contain {
