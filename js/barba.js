@@ -17,7 +17,7 @@ barba.init({
         enter(data) {
           // Nettoyer les animations GSAP
           gsap.from(data.next.container, {
-            duration: 0.3,
+            duration: 0.3, 
             onComplete: () => {
               // Supprimer tous les tweens du container suivant
               gsap.killTweensOf(data.next.container);
