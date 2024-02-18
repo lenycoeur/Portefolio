@@ -53,4 +53,17 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger, { clearProps: true });
 
   
-  
+
+const burgerIcon = document.querySelector(".burger-button i");
+const burgerButton = document.querySelector(".burger-button");
+const burgerMenu = document.querySelector(".burger-menu");
+
+burgerButton.onclick = function () {
+  burgerMenu.classList.toggle('openmenu');
+  const isOpen = burgerMenu.classList.contains('openmenu');
+  burgerIcon.className = isOpen ? "fas fa-xmark" : "fas fa-bars";
+};
+
+window.onload = function () {
+  burgerMenu.classList.remove("openmenu");
+};

@@ -61,6 +61,7 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
 .barnav p {
   font-size: 1.5em;
 }
@@ -102,6 +103,10 @@ li:hover a {
   font-family: "num";
   color: white;
 }
+
+/* BURGERMENU */ 
+
+
 
 /*CS CONTAIN MID*/
 
@@ -628,20 +633,23 @@ h5 {
   left: 0px;
 }
 
+
 @media (max-width: 1569px) {
+
+ 
+
+    .burger-menu {
+    display: none !important;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
   body {
     text-size-adjust: auto !important;
   }
 
-  /*.bis{
-   
-
-   }
-
-   .botbis h3{
-   
- 
-   }*/
 
   .midcontain {
     display: flex;
@@ -742,6 +750,14 @@ h5 {
 }
 
 @media (max-width: 1279px) {
+  .burger-menu {
+    display: none !important;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
   .bigname p {
     font-size: 19rem !important;
     height: 350px;
@@ -782,8 +798,25 @@ h5 {
     height: 35px;
   }
 }
+@media (min-width: 1160px) {
+  .burger-menu {
+    display: none !important;
+  }
 
+  .burger-button {
+    display: none;
+  }
+}
 @media (max-width: 1049px) {
+  
+  .burger-menu {
+    display: none !important;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
   .menubar li {
     font-size: 1.2em;
     padding: 0 20px 0 20px;
@@ -1006,6 +1039,14 @@ h5 {
 }
 
 @media (max-width: 768px) {
+
+  .burger-menu {
+    display: none !important;
+  }
+  .burger-button {
+    display: none;
+  }
+
   .menubar li {
     font-size: 1rem;
     padding: 0 10px 0 10px;
@@ -1201,11 +1242,11 @@ h5 {
 
 @media (max-width: 576px) {
 
+
   #home {
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: hidden;
     z-index: 2;
     padding: 0;
     background-color: #0707103d;
@@ -1216,13 +1257,61 @@ h5 {
     display: none;
   }
 
+  
+
+  .burger-button {
+    display: block !important;
+    text-align: center;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+
+    .burger-menu {
+      z-index: 2;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 70%;
+   background-color: #07071026;
+   border: rgba(129, 0, 221, 0.223) 1px solid;
+   backdrop-filter: blur(10px) !important;
+   -webkit-backdrop-filter: blur(10px) !important;
+    border-radius: 5px;
+    font-size: 0.5em;
+    display: flex;
+    width: 90px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .openmenu {
+    display: block !important;
+  }
+
+  .burger-menu li {
+  padding: 5px 5px 5px 5px ;
+}
+
+  
+  
+
+  .fas {
+    font-size: 12px;
+  }
+  #logomn{
+    height: 35px;
+  }
+
   #logomn img {
     width: 35px;
     height: auto;
   }
 
   .social a {
-    font-size: 13px;
+    display: none;
   }
 
   .contain {

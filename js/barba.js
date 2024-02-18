@@ -1,5 +1,5 @@
 /* --- BARBAJS ANIM ----*/
-
+/*
 barba.init({
     transitions: [
       {
@@ -34,4 +34,4 @@ barba.init({
     },
   });
 
-  gsap.registerPlugin(ScrollTrigger, { clearProps: true });
+  gsap.registerPlugin(ScrollTrigger, { clearProps: true });*/
