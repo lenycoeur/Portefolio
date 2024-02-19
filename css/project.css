@@ -3,9 +3,8 @@ body {
   color: white;
   margin: 0 auto;
   padding: 0;
-  font-family: "poppins";
+  font-family: "Pathway Extreme";
 }
-
 
 .project_container::-webkit-scrollbar {
   display: none;
@@ -16,23 +15,8 @@ body {
 }
 
 @font-face {
-  font-family: "poppins";
-  src: url(../fonts/Poppins/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: "regular";
-  src: url(../fonts/Poppins/Poppins-Regular.ttf);
-}
-
-@font-face {
   font-family: "semibold";
   src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
-}
-
-@font-face {
-  font-family: "para";
-  src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
@@ -69,7 +53,6 @@ nav {
   align-items: center;
 }
 
-
 .menubar {
   text-align: center;
 }
@@ -82,14 +65,13 @@ nav {
 }
 
 ul {
-    padding-left: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
 li {
   display: inline-block;
   font-size: 1.5em;
-  font-family: "para";
   padding: 0 3rem 0 3rem;
   list-style-type: none;
 }
@@ -102,6 +84,14 @@ li > a {
 li:hover a {
   color: white;
   transition: 0.3s ease-in-out;
+}
+
+.burger-button {
+  display: none;
+}
+
+.burger-menu {
+  display: none;
 }
 
 .number {
@@ -117,7 +107,6 @@ li:hover a {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  
 }
 
 .reveal {
@@ -154,7 +143,7 @@ li:hover a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 4rem;
 }
 
 .title h1 {
@@ -170,12 +159,11 @@ li:hover a {
   text-align: center;
   width: 80%;
   font-size: 1.4em;
-  font-family: "para";
 }
 
 .pp {
   text-align: justify;
-  width: 25%;
+  width: 35%;
   height: auto;
 }
 
@@ -193,8 +181,7 @@ li:hover a {
 }
 
 .gr p {
-  font-size: 1.4em;
-  font-family: "para";
+  font-size: 1.2em;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
@@ -207,7 +194,7 @@ li:hover a {
 }
 
 .section img {
-  width: 600px;
+  width: 500px;
   height: auto;
 }
 
@@ -225,8 +212,7 @@ li:hover a {
 .extern a {
   list-style-type: none;
   text-decoration: none;
-  font-family: "para";
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: grey;
 }
 
@@ -303,24 +289,28 @@ li:hover a {
 /*----- RESPONSIVE ------*/
 
 @media (max-width: 1440px) {
-    nav{
-        padding: 0;
-    }
+  .burger-menu {
+    display: none !important;
+  }
 
+  .burger-button {
+    display: none;
+  }
+  nav {
+    padding: 0;
+  }
 
-    li{
-        font-size: 0.7em;
-        padding: 0 10px 0 10px;
+  li {
+    font-size: 0.7em;
+    padding: 0 10px 0 10px;
+  }
 
-    }
-
-
-    #logomn img {
+  #logomn img {
     width: 60px;
     height: auto;
   }
 
-     .social a {
+  .social a {
     font-size: 18px;
     color: white;
   }
@@ -381,12 +371,11 @@ li:hover a {
     text-align: center;
     width: 55%;
     font-size: 0.8em;
-    font-family: "para";
   }
 
   .pp {
     text-align: justify;
-    width: 40%;
+    width: 30%;
     height: auto;
   }
 
@@ -405,7 +394,6 @@ li:hover a {
 
   .gr p {
     font-size: 0.7em;
-    font-family: "para";
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
   }
@@ -427,11 +415,10 @@ li:hover a {
     min-width: 100%;
   }
 
-    .extern p {
+  .extern p {
     margin-top: 0;
     margin-bottom: 0;
   }
-
 
   .extern {
     display: flex;
@@ -441,7 +428,6 @@ li:hover a {
   .extern a {
     list-style-type: none;
     text-decoration: none;
-    font-family: "para";
     font-size: 1em;
     color: grey;
   }
@@ -518,23 +504,29 @@ li:hover a {
 }
 
 @media (max-width: 1049px) {
-    nav{
-        padding: 0;
-    }
+  .burger-menu {
+    display: none !important;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  nav {
+    padding: 0;
+  }
 
   li {
-  
-        font-size: 0.5em;
-        padding: 0 10px 0 10px;
+    font-size: 0.5em;
+    padding: 0 10px 0 10px;
+  }
 
-    }
-
-     #logomn img {
+  #logomn img {
     width: 50px;
     height: auto;
   }
 
-    .social a {
+  .social a {
     font-size: 17px;
     color: white;
   }
@@ -595,7 +587,6 @@ li:hover a {
     text-align: center;
     width: 65%;
     font-size: 0.7em;
-    font-family: "para";
   }
 
   .pp {
@@ -619,7 +610,7 @@ li:hover a {
 
   .gr p {
     font-size: 0.7em;
-    font-family: "para";
+
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
@@ -632,7 +623,7 @@ li:hover a {
   }
 
   .section img {
-    width: 250px;
+    width: 350px;
     height: auto;
   }
 
@@ -654,7 +645,7 @@ li:hover a {
   .extern a {
     list-style-type: none;
     text-decoration: none;
-    font-family: "para";
+
     font-size: 0.7em;
     color: grey;
   }
@@ -731,23 +722,29 @@ li:hover a {
 }
 
 @media (max-width: 768px) {
-    nav {
-        padding: 0;
-    }
-    
+  .burger-menu {
+    display: none !important;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  nav {
+    padding: 0;
+  }
+
   li {
-  
-        font-size: 0.5em;
-        padding: 0 10px 0 10px;
+    font-size: 0.5em;
+    padding: 0 10px 0 10px;
+  }
 
-    }
-
-     #logomn img {
+  #logomn img {
     width: 30px;
     height: auto;
   }
 
-    .social a {
+  .social a {
     font-size: 15px;
     color: white;
   }
@@ -765,8 +762,6 @@ li:hover a {
     visibility: hidden;
     will-change: transform, opacity;
   }
-
-
 
   .logo {
     width: 40px !important;
@@ -804,7 +799,6 @@ li:hover a {
     text-align: center;
     width: 65%;
     font-size: 0.6em;
-    font-family: "para";
   }
 
   .pp {
@@ -828,7 +822,7 @@ li:hover a {
 
   .gr p {
     font-size: 0.5em;
-    font-family: "para";
+
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -841,7 +835,7 @@ li:hover a {
   }
 
   .section img {
-    width: 150px;
+    width: 250px;
     height: auto;
   }
 
@@ -859,7 +853,7 @@ li:hover a {
   .extern a {
     list-style-type: none;
     text-decoration: none;
-    font-family: "para";
+
     font-size: 0.7em;
     color: grey;
   }
@@ -936,38 +930,69 @@ li:hover a {
 }
 
 @media (max-width: 576px) {
+  .burger-button {
+    display: block !important;
+    text-align: center;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    font-size: 10px;
+  }
 
-        .barnav {
+  .burger-menu {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 65%;
+    background-color: #07071026;
+    border: rgba(129, 0, 221, 0.109) 1px solid;
+
+    border-radius: 5px;
+    font-size: 0.5em;
+    display: flex;
+    width: 90px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .openmenu {
+    display: block !important;
+  }
+
+  .burger-menu li {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .barnav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     top: 0;
-    }
+  }
 
-    nav{
-        padding: 0;
-    }
+  nav {
+    padding: 0;
+  }
 
-    .menubar {
-        display: none;
-    }
+  .menubar {
+    display: none;
+  }
 
-       
   li {
-  
-        font-size: 1em;
-        padding: 0 10px 0 10px;
+    font-size: 1em;
+    padding: 0 10px 0 10px;
+  }
 
-    }
-
-     #logomn img {
+  #logomn img {
     width: 30px;
     height: auto;
   }
 
-    .social a {
-    font-size: 15px;
-    color: white;
+  .social a {
+    display: none;
   }
 
   .project_container {
@@ -988,7 +1013,7 @@ li:hover a {
   .tech {
     width: 80%;
     height: auto;
-    padding:0;
+    padding: 0;
     text-align: center;
     margin-top: 0;
   }
@@ -1018,7 +1043,6 @@ li:hover a {
     gap: 1rem;
     align-items: center;
     width: 100%;
-    
   }
 
   .title h1 {
@@ -1034,12 +1058,11 @@ li:hover a {
     width: 90%;
     font-size: 0.4em;
     padding: 0.2rem;
-    font-family: "para";
   }
 
   .litle p {
     margin-top: 0.3rem;
-    margin-bottom: 0.3rem ;
+    margin-bottom: 0.3rem;
   }
 
   .pp {
@@ -1063,7 +1086,7 @@ li:hover a {
 
   .gr p {
     font-size: 0.4em;
-    font-family: "para";
+
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
@@ -1083,7 +1106,7 @@ li:hover a {
   .section {
     flex: 1;
     min-width: 100%;
-    height: 235px;
+    height: 190px;
   }
 
   .extern {
@@ -1096,11 +1119,10 @@ li:hover a {
     margin-bottom: -2px;
   }
 
-
   .extern a {
     list-style-type: none;
     text-decoration: none;
-    font-family: "para";
+
     font-size: 0.2em;
     color: grey;
   }
@@ -1175,4 +1197,3 @@ li:hover a {
     background-color: rgb(255, 255, 255);
   }
 }
-
