@@ -1,4 +1,4 @@
-## PORTEFOLIO
+## PORTFOLIO
 
 ![capture](./img/read.png)
 
